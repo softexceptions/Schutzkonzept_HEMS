@@ -106,15 +106,15 @@ const farben = [
             </svg>
           </div>
         </div>
-        <p class="mt-2 text-sm font-medium leading-snug text-hems-navy">
+        <p class="mt-2 text-sm font-medium leading-snug text-hems-navy dark:text-gray-100">
           {{ kurzTitel(fall.titel) }}
         </p>
-        <p class="mt-2 line-clamp-2 text-xs leading-relaxed text-hems-muted">
+        <p class="mt-2 line-clamp-2 text-xs leading-relaxed text-hems-muted dark:text-gray-400">
           {{ fall.schritte[0] }}
         </p>
         <span
           v-if="fall.podcast"
-          class="mt-2.5 inline-flex items-center gap-1 text-xs font-medium text-hems-blue"
+          class="mt-2.5 inline-flex items-center gap-1 text-xs font-medium text-hems-blue dark:text-hems-sky"
         >
           🎧 Podcast verfügbar
         </span>
