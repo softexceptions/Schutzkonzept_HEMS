@@ -70,10 +70,10 @@ function kurzTitel(titel: string): string {
 }
 
 const farben = [
-  { karte: 'border-sky-200 bg-sky-50',       karteAktiv: 'border-sky-400 bg-sky-100',       buchstabe: 'text-sky-300',    buchstabeAktiv: 'text-sky-500',    panel: 'border-sky-200 bg-sky-50',     badge: 'text-sky-600',    nummer: 'text-sky-500',    emoji: '🏠' },
-  { karte: 'border-orange-200 bg-orange-50', karteAktiv: 'border-orange-400 bg-orange-100', buchstabe: 'text-orange-300', buchstabeAktiv: 'text-orange-500', panel: 'border-orange-200 bg-orange-50', badge: 'text-orange-600', nummer: 'text-orange-500', emoji: '👥' },
-  { karte: 'border-blue-200 bg-blue-50',     karteAktiv: 'border-blue-400 bg-blue-100',     buchstabe: 'text-blue-300',   buchstabeAktiv: 'text-blue-500',   panel: 'border-blue-200 bg-blue-50',   badge: 'text-blue-600',   nummer: 'text-blue-500',   emoji: '👨‍🏫' },
-  { karte: 'border-yellow-200 bg-yellow-50',  karteAktiv: 'border-yellow-400 bg-yellow-100',  buchstabe: 'text-yellow-300', buchstabeAktiv: 'text-yellow-500', panel: 'border-yellow-200 bg-yellow-50', badge: 'text-yellow-600', nummer: 'text-yellow-500', emoji: '🪪' },
+  { karte: 'border-sky-200 bg-sky-50 dark:border-sky-800 dark:bg-sky-950/40',             karteAktiv: 'border-sky-400 bg-sky-100 dark:border-sky-600 dark:bg-sky-900/50',             buchstabe: 'text-sky-300',    buchstabeAktiv: 'text-sky-500',    panel: 'border-sky-200 bg-sky-50 dark:border-sky-800 dark:bg-sky-950/40',         badge: 'text-sky-600 dark:text-sky-400',    nummer: 'text-sky-500 dark:text-sky-400',    emoji: '🏠' },
+  { karte: 'border-orange-200 bg-orange-50 dark:border-orange-800 dark:bg-orange-950/40', karteAktiv: 'border-orange-400 bg-orange-100 dark:border-orange-600 dark:bg-orange-900/50', buchstabe: 'text-orange-300', buchstabeAktiv: 'text-orange-500', panel: 'border-orange-200 bg-orange-50 dark:border-orange-800 dark:bg-orange-950/40', badge: 'text-orange-600 dark:text-orange-400', nummer: 'text-orange-500 dark:text-orange-400', emoji: '👥' },
+  { karte: 'border-blue-200 bg-blue-50 dark:border-blue-800 dark:bg-blue-950/40',         karteAktiv: 'border-blue-400 bg-blue-100 dark:border-blue-600 dark:bg-blue-900/50',         buchstabe: 'text-blue-300',   buchstabeAktiv: 'text-blue-500',   panel: 'border-blue-200 bg-blue-50 dark:border-blue-800 dark:bg-blue-950/40',     badge: 'text-blue-600 dark:text-blue-400',   nummer: 'text-blue-500 dark:text-blue-400',   emoji: '👨‍🏫' },
+  { karte: 'border-yellow-200 bg-yellow-50 dark:border-yellow-800 dark:bg-yellow-950/40', karteAktiv: 'border-yellow-400 bg-yellow-100 dark:border-yellow-600 dark:bg-yellow-900/50', buchstabe: 'text-yellow-300', buchstabeAktiv: 'text-yellow-500', panel: 'border-yellow-200 bg-yellow-50 dark:border-yellow-800 dark:bg-yellow-950/40', badge: 'text-yellow-600 dark:text-yellow-400', nummer: 'text-yellow-500 dark:text-yellow-400', emoji: '🪪' },
 ]
 </script>
 
@@ -141,7 +141,7 @@ const farben = [
             <p class="mb-0.5 text-xs font-semibold uppercase tracking-widest" :class="farben[ausgewaehlt].badge">
               Fall {{ buchstaben[ausgewaehlt] }}
             </p>
-            <p class="font-medium text-hems-navy">
+            <p class="font-medium text-hems-navy dark:text-gray-100">
               {{ kurzTitel(faelle[ausgewaehlt].titel) }}
             </p>
           </div>
@@ -235,7 +235,7 @@ const farben = [
               </button>
               <div
                 v-if="transkriptOffen.has(ausgewaehlt)"
-                class="mt-3 space-y-2 text-sm leading-relaxed text-hems-navy"
+                class="mt-3 space-y-2 text-sm leading-relaxed text-hems-navy dark:text-gray-200"
                 v-html="transkriptHtml(faelle[ausgewaehlt].podcast!.transkriptDatei!)"
                 lang="de"
               ></div>
@@ -247,7 +247,7 @@ const farben = [
           <li
             v-for="(schritt, i) in faelle[ausgewaehlt].schritte"
             :key="i"
-            class="flex gap-3 text-sm leading-relaxed text-hems-steel"
+            class="flex gap-3 text-sm leading-relaxed text-hems-steel dark:text-gray-300"
           >
             <span class="mt-px shrink-0 text-xs font-semibold" :class="farben[ausgewaehlt].nummer">{{ i + 1 }}.</span>
             <span class="min-w-0 break-words hyphens-auto">{{ schritt }}</span>
