@@ -57,6 +57,10 @@ faelle:
       - "Schulleitung informiert Schulgemeinde."
       - "Unterstützungs- und Schutzmaßnahmen für betroffene Lernende sowie Maßnahmen gegenüber der tatverdächtigen Person."
       - "Ggf. Beratung im Hinblick auf das Stellen einer Strafanzeige. Weiteres Vorgehen in Absprache mit Schulaufsicht und der Polizei."
+    podcast:
+      datei: /audio/fall-c.m4a
+      triggerwarnung: "Diese Aufnahme enthält eine Fallanalyse zu Verdachtsmomenten gegen Schulpersonal. Das Kolleginnen-Dilemma und der Umgang mit Verdacht gegen vertraute Personen können emotional belastend sein. Bitte nehmen Sie sich einen Moment, bevor Sie die Aufnahme starten. Das vollständige Transkript steht unterhalb des Players zur Verfügung."
+      transkriptDatei: fall-c
   - titel: "Fall D: Übergriffe auf Beschäftigte der Schule"
     schritte:
       - "Betroffene/r oder Vertrauensperson informiert die Abteilungsleitung/Schulleitung."
@@ -67,6 +71,10 @@ faelle:
       - "Auf Möglichkeit der Hinzuziehung eines Rechtsbeistandes hinweisen."
       - "Täter-Opfer-Trennung."
       - "Hilfsmöglichkeiten und Unterstützungsmaßnahmen einleiten."
+    podcast:
+      datei: /audio/fall-d.m4a
+      triggerwarnung: "Diese Aufnahme enthält eine Fallanalyse zu Bedrohung, Einschüchterung und Stalking gegenüber Lehrkräften. Das Thema kann belastend sein. Bitte nehmen Sie sich einen Moment, bevor Sie die Aufnahme starten. Das vollständige Transkript steht unterhalb des Players zur Verfügung."
+      transkriptDatei: fall-d
 ---
 
 ## 1.1 Was sind Grenzverletzungen, Gewalterfahrungen und sexuelle Gewalt?
