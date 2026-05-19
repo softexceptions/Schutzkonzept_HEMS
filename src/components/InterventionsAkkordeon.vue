@@ -151,19 +151,8 @@ const farben = [
           </button>
         </div>
 
-        <ol class="space-y-3" lang="de">
-          <li
-            v-for="(schritt, i) in faelle[ausgewaehlt].schritte"
-            :key="i"
-            class="flex gap-3 text-sm leading-relaxed text-hems-steel"
-          >
-            <span class="mt-px shrink-0 text-xs font-semibold" :class="farben[ausgewaehlt].nummer">{{ i + 1 }}.</span>
-            <span class="min-w-0 break-words hyphens-auto">{{ schritt }}</span>
-          </li>
-        </ol>
-
         <!-- Podcast-Bereich -->
-        <div v-if="faelle[ausgewaehlt].podcast" class="mt-5 border-t border-black/10 pt-4">
+        <div v-if="faelle[ausgewaehlt].podcast" class="mb-5 border-b border-black/10 pb-4">
 
           <!-- Triggerwarnung -->
           <div
@@ -236,6 +225,17 @@ const farben = [
             </div>
           </template>
         </div>
+
+        <ol class="space-y-3" lang="de">
+          <li
+            v-for="(schritt, i) in faelle[ausgewaehlt].schritte"
+            :key="i"
+            class="flex gap-3 text-sm leading-relaxed text-hems-steel"
+          >
+            <span class="mt-px shrink-0 text-xs font-semibold" :class="farben[ausgewaehlt].nummer">{{ i + 1 }}.</span>
+            <span class="min-w-0 break-words hyphens-auto">{{ schritt }}</span>
+          </li>
+        </ol>
       </div>
     </Transition>
   </div>
