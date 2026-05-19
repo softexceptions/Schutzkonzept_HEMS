@@ -42,9 +42,9 @@ const kapitel = [
   <aside class="hidden md:flex md:w-64 md:shrink-0 md:flex-col md:border-r md:border-hems-glass/70 md:bg-hems-bg dark:md:bg-gray-900 dark:md:border-gray-700">
     <div class="h-1 shrink-0 bg-hems-blue dark:bg-hems-blue/60"></div>
     <div class="border-b border-hems-glass/40 bg-white px-6 py-5 dark:border-gray-700 dark:bg-transparent">
-      <RouterLink to="/" class="flex flex-col items-start gap-1" @click="scrollNachOben">
-        <img src="/hems-logo.svg" alt="HEMS Logo" class="h-8 w-auto rounded bg-white" />
-        <p class="text-sm font-semibold tracking-wide text-hems-navy dark:text-white">Schutzkonzept</p>
+      <RouterLink to="/" class="flex items-center gap-3" @click="scrollNachOben">
+        <img src="/hems-logo.svg" alt="HEMS Logo" class="h-8 w-auto shrink-0 rounded bg-white" />
+        <p class="whitespace-nowrap text-sm font-semibold tracking-wide text-hems-navy dark:text-white">Schutzkonzept</p>
       </RouterLink>
     </div>
 
@@ -92,9 +92,9 @@ const kapitel = [
   <!-- Mobile Top Bar -->
   <header class="sticky top-0 z-50 md:hidden border-b border-hems-glass/40 bg-hems-bg dark:bg-gray-900 dark:border-gray-700">
     <div class="flex items-center justify-between px-4 py-3">
-      <RouterLink to="/" class="flex flex-col items-start gap-0.5" @click="scrollNachOben">
-        <img src="/hems-logo.svg" alt="HEMS Logo" class="h-8 w-auto rounded bg-white" />
-        <p class="text-sm font-semibold tracking-wide text-hems-navy dark:text-white">Schutzkonzept</p>
+      <RouterLink to="/" class="flex items-center gap-3" @click="scrollNachOben">
+        <img src="/hems-logo.svg" alt="HEMS Logo" class="h-8 w-auto shrink-0 rounded bg-white" />
+        <p class="whitespace-nowrap text-sm font-semibold tracking-wide text-hems-navy dark:text-white">Schutzkonzept</p>
       </RouterLink>
 
       <div class="flex items-center gap-1">
