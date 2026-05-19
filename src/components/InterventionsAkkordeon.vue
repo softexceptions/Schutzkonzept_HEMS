@@ -9,6 +9,7 @@ const ausgewaehlt = ref<number | null>(null)
 const panel = ref<HTMLElement | null>(null)
 const kartenRefs = ref<HTMLElement[]>([])
 const triggerBestaetigt = ref<Set<number>>(new Set())
+const triggerAusgeklappt = ref<Set<number>>(new Set())
 const gespielt = ref<Set<number>>(new Set())
 const transkriptOffen = ref<Set<number>>(new Set())
 
@@ -40,6 +41,10 @@ function schliessen() {
       kartenRefs.value[idx]?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
     }
   })
+}
+
+function triggerAusklappen(index: number) {
+  triggerAusgeklappt.value = new Set([...triggerAusgeklappt.value, index])
 }
 
 function triggerBestaetigen(index: number) {
@@ -155,22 +160,34 @@ const farben = [
         <div v-if="faelle[ausgewaehlt].podcast" class="mb-5 border-b border-black/10 pb-4">
 
           <!-- Triggerwarnung -->
-          <div
-            v-if="!triggerBestaetigt.has(ausgewaehlt)"
-            class="rounded-md border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/50 dark:bg-amber-950/30"
-          >
-            <p class="flex items-center gap-2 text-sm font-semibold text-amber-800 dark:text-amber-400">
-              ⚠️ Triggerwarnung
-            </p>
-            <p class="mt-1.5 text-sm leading-relaxed text-amber-700 dark:text-amber-300" lang="de">
-              {{ faelle[ausgewaehlt].podcast!.triggerwarnung }}
-            </p>
+          <div v-if="!triggerBestaetigt.has(ausgewaehlt)">
+            <!-- Kompakte Zeile -->
             <button
-              class="mt-3 rounded-md bg-amber-100 px-3 py-1.5 text-xs font-medium text-amber-800 transition-colors hover:bg-amber-200 dark:bg-amber-900/40 dark:text-amber-300 dark:hover:bg-amber-900/60"
-              @click="triggerBestaetigen(ausgewaehlt)"
+              v-if="!triggerAusgeklappt.has(ausgewaehlt)"
+              class="flex w-full items-center gap-2 rounded-md border border-amber-200 bg-amber-50 px-3 py-2.5 text-left transition-colors hover:bg-amber-100 dark:border-amber-900/50 dark:bg-amber-950/30 dark:hover:bg-amber-900/40"
+              @click="triggerAusklappen(ausgewaehlt)"
             >
-              Ich habe die Warnung gelesen — Podcast abspielen
+              <span class="text-sm font-semibold text-amber-800 dark:text-amber-400">⚠️ Triggerwarnung</span>
+              <span class="ml-auto text-xs text-amber-600 dark:text-amber-500">Lesen &amp; Podcast freischalten →</span>
             </button>
+            <!-- Ausgeklappter Volltext -->
+            <div
+              v-else
+              class="rounded-md border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/50 dark:bg-amber-950/30"
+            >
+              <p class="flex items-center gap-2 text-sm font-semibold text-amber-800 dark:text-amber-400">
+                ⚠️ Triggerwarnung
+              </p>
+              <p class="mt-1.5 text-sm leading-relaxed text-amber-700 dark:text-amber-300" lang="de">
+                {{ faelle[ausgewaehlt].podcast!.triggerwarnung }}
+              </p>
+              <button
+                class="mt-3 rounded-md bg-amber-100 px-3 py-1.5 text-xs font-medium text-amber-800 transition-colors hover:bg-amber-200 dark:bg-amber-900/40 dark:text-amber-300 dark:hover:bg-amber-900/60"
+                @click="triggerBestaetigen(ausgewaehlt)"
+              >
+                Ich habe die Warnung gelesen — Podcast abspielen
+              </button>
+            </div>
           </div>
 
           <!-- Player + Transkript -->
