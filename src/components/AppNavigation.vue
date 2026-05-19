@@ -73,7 +73,7 @@ const kapitel = [
       >
         <span class="text-base leading-none" aria-hidden="true">🧠</span>
         <span class="tabular-nums text-xs text-hems-steel/50 dark:text-gray-400">—</span>
-        Wissen testen
+        Wissenscheck
       </RouterLink>
     </div>
 
@@ -155,7 +155,7 @@ const kapitel = [
           >
             <span class="text-base leading-none" aria-hidden="true">🧠</span>
             <span class="tabular-nums text-xs text-hems-steel/50 dark:text-gray-400">—</span>
-            Wissen testen
+            Wissenscheck
           </RouterLink>
         </div>
       </nav>
