@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@variant dark (&:is(.dark *));
+
+@theme {
+  --color-gray-900:   #1c2535;
+  --color-gray-800:   #2d3f56;
+  --color-hems-navy:  #1a1d21;
+  --color-hems-blue:  #2d6fa8;
+  --color-hems-sky:   #6aadc8;
+  --color-hems-steel: #4a6070;
+  --color-hems-glass: #8da8b8;
+  --color-hems-bg:    #f0f3f5;
+  --color-hems-muted: #68808c;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.hyphens-auto {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+summary {
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-hems-bg);
+  color: var(--color-hems-navy);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}

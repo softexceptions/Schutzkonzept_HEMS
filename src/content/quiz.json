@@ -1,0 +1,607 @@
+[
+  {
+    "id": "mc-01",
+    "typ": "multiple-choice",
+    "frage": "In welche drei Kategorien werden Gewalterfahrungen und sexuelle Belästigung laut Schutzkonzept eingeteilt?",
+    "optionen": [
+      "Verbale Gewalt, nonverbale Verhaltensweisen und physische Handlungen",
+      "Psychische, körperliche und digitale Gewalt",
+      "Emotionale, sexuelle und strukturelle Gewalt",
+      "Aktive, passive und latente Gewalt"
+    ],
+    "richtig": 0,
+    "erklaerung": "Das Schutzkonzept unterscheidet: I. Verbale Gewalt und sexuelle Belästigung, II. Nonverbale Verhaltensweisen, III. Physische Handlungen."
+  },
+  {
+    "id": "mc-02",
+    "typ": "multiple-choice",
+    "frage": "Wer sollte das Erstgespräch mit einer betroffenen Person führen?",
+    "optionen": [
+      "Die Schulleitung",
+      "Die schulische Ansprechperson",
+      "Die Person, an die sich die betroffene Person zuerst gewendet hat",
+      "Die Klassenleitung"
+    ],
+    "richtig": 2,
+    "erklaerung": "Das Erstgespräch sollte schnellstmöglich von der Person geführt werden, an die sich die betroffene Person zuerst gewendet hat."
+  },
+  {
+    "id": "mc-03",
+    "typ": "multiple-choice",
+    "frage": "Was gilt als Grundannahme bei verbalen Hinweisen auf Übergriffe laut Schutzkonzept?",
+    "optionen": [
+      "Jede entsprechende Aussage ist ernst zu nehmen — Lügen kommen vor, sind aber selten",
+      "Aussagen müssen durch Beweise gestützt werden, bevor Maßnahmen eingeleitet werden",
+      "Aussagen von Minderjährigen müssen durch Erwachsene bestätigt werden",
+      "Hinweise sind erst nach wiederholter Nennung zu verfolgen"
+    ],
+    "richtig": 0,
+    "erklaerung": "Das Konzept betont: Jede entsprechende Aussage ist ernst zu nehmen (Grundannahme der wahren Aussage — Lügen kommen vor, sind aber selten!)."
+  },
+  {
+    "id": "mc-04",
+    "typ": "multiple-choice",
+    "frage": "Was ist bei Fotos von minderjährigen Lernenden zwingend erforderlich?",
+    "optionen": [
+      "Eine mündliche Einwilligung der Lernenden reicht aus",
+      "Fotos sind nur bei offiziellen Schulveranstaltungen erlaubt",
+      "Es genügt die Genehmigung der Schulleitung",
+      "Die ausdrückliche Zustimmung der Lernenden und das schriftliche Einverständnis der Erziehungsberechtigten"
+    ],
+    "richtig": 3,
+    "erklaerung": "Bei Minderjährigen ist neben der Zustimmung der Lernenden auch das schriftliche Einverständnis der Erziehungsberechtigten erforderlich. Die Einwilligung muss sich konkret auf Art und Zweck der Aufnahme beziehen."
+  },
+  {
+    "id": "mc-05",
+    "typ": "multiple-choice",
+    "frage": "Welcher Kooperationspartner bietet medizinische Soforthilfe nach Vergewaltigung — auch ohne polizeiliche Anzeige?",
+    "optionen": [
+      "Wildwasser Darmstadt e.V.",
+      "Pro Familia Darmstadt",
+      "Darmstädter Hilfe e.V.",
+      "Kinderschutzbund Darmstadt e.V."
+    ],
+    "richtig": 1,
+    "erklaerung": "Pro Familia Darmstadt bietet psychologische Beratung, Krisenintervention und auch medizinische Soforthilfe nach Vergewaltigung ohne polizeiliche Anzeige."
+  },
+  {
+    "id": "mc-06",
+    "typ": "multiple-choice",
+    "frage": "Wie werden Lernende laut Verhaltenskodex korrekt angesprochen?",
+    "optionen": [
+      "Mit Kosenamen, wenn ein Vertrauensverhältnis besteht",
+      "Mit dem Familiennamen in formellen Situationen",
+      "Mit dem Ruf- bzw. Vornamen — Kosenamen sind zu unterlassen",
+      "Mit einem Spitznamen, wenn die Klasse das so möchte"
+    ],
+    "richtig": 2,
+    "erklaerung": "Lernende werden mit ihrem Ruf- bzw. Vornamen angesprochen, nicht mit Kosenamen. Wenn Spitznamen benutzt werden, sollte dies zuvor offen kommuniziert worden sein."
+  },
+  {
+    "id": "mc-07",
+    "typ": "multiple-choice",
+    "frage": "Wo sollten Einzelgespräche mit Lernenden stattfinden?",
+    "optionen": [
+      "In abgeschlossenen Räumen, um die Privatsphäre zu schützen",
+      "In offenen oder einsehbaren Bereichen — Türen bleiben offen",
+      "Nur im Lehrerzimmer in Anwesenheit der Klassenleitung",
+      "Ausschließlich auf dem Schulhof"
+    ],
+    "richtig": 1,
+    "erklaerung": "Gespräche mit einzelnen Lernenden finden grundsätzlich in offenen oder einsehbaren Bereichen statt. Türen bleiben offen, sofern kein Fenster zum Flur vorhanden ist."
+  },
+  {
+    "id": "mc-08",
+    "typ": "multiple-choice",
+    "frage": "Wann kann das Staatliche Schulamt eine Dienstenthebung anordnen?",
+    "optionen": [
+      "Erst nach einem rechtskräftigen Urteil",
+      "Nur auf Antrag der Schulleitung nach einer Anhörung",
+      "Zum Schutz des Opfers, wenn sich ein Verdacht gegen einen Mitarbeitenden richtet",
+      "Ausschließlich nach einer polizeilichen Anzeige"
+    ],
+    "richtig": 2,
+    "erklaerung": "Zum Schutz des Opfers kann unter Umständen eine Dienstenthebung durch das Staatliche Schulamt angeordnet werden — unabhängig vom Ermittlungsstand."
+  },
+  {
+    "id": "mc-09",
+    "typ": "multiple-choice",
+    "frage": "Was ist das Angebot von Mäander Darmstadt?",
+    "optionen": [
+      "Therapeutische Beratung für Kinder und Jugendliche bei sexualisierter Gewalt",
+      "Beratung für Betroffene von Zwangsheirat und Gewalt im Namen der 'Ehre'",
+      "Schutz und Unterkunft für Frauen in häuslichen Gewaltsituationen",
+      "Telefonische Krisenintervention und Online-Beratung für Lehrkräfte"
+    ],
+    "richtig": 1,
+    "erklaerung": "Mäander Darmstadt berät Betroffene von Zwangsheirat, insbesondere Mädchen und junge Frauen, sowie deren Umfeld und Fachkräfte. Persönliche, telefonische oder anonyme Onlineberatung möglich."
+  },
+  {
+    "id": "mc-10",
+    "typ": "multiple-choice",
+    "frage": "Was ist laut Verhaltenskodex bei Geschenken an Lernende erlaubt?",
+    "optionen": [
+      "Einzelgeschenke bis zu einem Wert von 10 Euro als Anerkennung",
+      "Nur digitale Geschenke, da kein persönlicher Kontakt entsteht",
+      "Geschenke im Rahmen pädagogischer Maßnahmen an ganze Klassen oder Gruppen",
+      "Persönliche Belohnungen für besonders engagierte Lernende"
+    ],
+    "richtig": 2,
+    "erklaerung": "Einzelgeschenke an Lernende sind grundsätzlich nicht erlaubt. Geschenke dürfen nur an ganze Klassen oder Gruppen erfolgen — eine Bevorzugung einzelner Personen ist zu vermeiden."
+  },
+  {
+    "id": "mc-11",
+    "typ": "multiple-choice",
+    "frage": "Was beschreibt das 'Mehr-Augen-Prinzip' im Schutzkonzept?",
+    "optionen": [
+      "Mehrere Lehrkräfte überwachen gemeinsam auffällige Lernende",
+      "Verdächtige Personen stehen unter dauerhafter Beobachtung durch zwei Kolleg:innen",
+      "Gefährdungseinschätzungen werden nicht allein getroffen, sondern mit weiteren Fachkräften abgestimmt",
+      "Vier-Augen-Gespräche werden immer von zwei Lehrkräften protokolliert"
+    ],
+    "richtig": 2,
+    "erklaerung": "Das Mehr-Augen-Prinzip bedeutet: Umfassende Gefährdungseinschätzungen werden nicht allein vorgenommen, sondern unter Einbeziehung weiterer Fachkräfte — z. B. Ansprechpersonen oder Fachberatungsstellen."
+  },
+  {
+    "id": "mc-12",
+    "typ": "multiple-choice",
+    "frage": "Über welche Kanäle soll die Kommunikation mit Lernenden bevorzugt erfolgen?",
+    "optionen": [
+      "Über jeden Kanal, dem die Lernenden zustimmen",
+      "Über schulische Kanäle wie IServ oder die schulische E-Mail-Adresse",
+      "Über verschlüsselte private Messenger-Apps",
+      "Social Media ist erlaubt, wenn die Schule dort offiziell vertreten ist"
+    ],
+    "richtig": 1,
+    "erklaerung": "Die Kommunikation zwischen Personal und Lernenden erfolgt bevorzugt über schulische Kanäle. Die Nutzung privater Kommunikationswege inklusive sozialer Netzwerke soll vermieden werden."
+  },
+  {
+    "id": "mc-13",
+    "typ": "multiple-choice",
+    "frage": "Was ist beim Sportunterricht bezüglich körperlicher Hilfestellung vorgeschrieben?",
+    "optionen": [
+      "Körperkontakt ist im Sport generell verboten",
+      "Körperkontakt ist bei Hilfestellung jederzeit erlaubt",
+      "Körperkontakt ist nur bei offensichtlicher Verletzungsgefahr erlaubt",
+      "Jede Hilfestellung wird vorab mit den Lernenden besprochen und das Einverständnis eingeholt"
+    ],
+    "richtig": 3,
+    "erklaerung": "Körperkontakt ist nur bei methodisch notwendiger Hilfestellung zulässig. Jede körperliche Hilfestellung wird vorab mit den Lernenden besprochen und das Einverständnis eingeholt."
+  },
+  {
+    "id": "mc-14",
+    "typ": "multiple-choice",
+    "frage": "Wer ist die zuständige externe Ansprechperson beim Staatlichen Schulamt Darmstadt?",
+    "optionen": [
+      "Marie Kremer — Schulpsychologin am Staatlichen Schulamt",
+      "Die Schulleitung der HEMS",
+      "Das Beratungsteam der HEMS",
+      "Der Kinderschutzbund Darmstadt e.V."
+    ],
+    "richtig": 0,
+    "erklaerung": "Marie Kremer ist Schulpsychologin am Staatlichen Schulamt für den Landkreis Darmstadt-Dieburg und die Stadt Darmstadt. Sie ist die zuständige Ansprechperson als übergeordnete Aufsichtsbehörde."
+  },
+  {
+    "id": "mc-15",
+    "typ": "multiple-choice",
+    "frage": "Was bedeutet die Unschuldsvermutung im Kontext des Schutzkonzepts?",
+    "optionen": [
+      "Sie verhindert jegliche Schutzmaßnahmen, bis ein Urteil gesprochen ist",
+      "Sie gilt parallel zum Vorrang des Opferschutzes und schließt Schutzmaßnahmen nicht aus",
+      "Sie verpflichtet die Schule zur Weiterbeschäftigung verdächtiger Personen",
+      "Sie gilt nur, wenn die beschuldigte Person ein Mitarbeiter der Schule ist"
+    ],
+    "richtig": 1,
+    "erklaerung": "Selbstverständlich gilt die Unschuldsvermutung — dies stellt aber keinen Verzicht auf Sicherungs- und Schutzmaßnahmen zugunsten des Opfers dar. Beides gilt gleichzeitig."
+  },
+  {
+    "id": "sz-01",
+    "typ": "szenario",
+    "szenario": "Ein Schüler erzählt Ihnen unter vier Augen, dass ein Mitschüler ihm über Instagram Drohungen schickt und private Fotos von ihm ohne Einverständnis in einer Klassengruppe verbreitet.",
+    "frage": "Welchem Interventionsfall entspricht diese Situation?",
+    "optionen": [
+      "Fall A — Übergriffe im außerschulischen und häuslichen Bereich",
+      "Fall B — Übergriffe von Lernenden untereinander im schulischen Bereich",
+      "Fall C — Übergriffe durch Schulpersonal",
+      "Fall D — Übergriffe auf Beschäftigte der Schule"
+    ],
+    "richtig": 1,
+    "erklaerung": "Übergriffe zwischen Lernenden — auch über digitale Kanäle — fallen unter Fall B. Die Schule ist der Kontext, auch wenn der Kanal privat ist."
+  },
+  {
+    "id": "sz-02",
+    "typ": "szenario",
+    "szenario": "Eine Schülerin vertraut Ihnen an, dass sie zu Hause regelmäßig von ihrem Stiefvater geschlagen wird. Sie ist das erste Mal mit diesem Thema zu Ihnen gekommen.",
+    "frage": "Was ist Ihr erster Schritt?",
+    "optionen": [
+      "Sofort die Polizei rufen und eine Anzeige aufnehmen lassen",
+      "Die Eltern telefonisch konfrontieren, um eine schnelle Lösung zu finden",
+      "Das Gespräch dokumentieren, Vertraulichkeit wahren und ggf. schulische Ansprechpersonen konsultieren",
+      "Die Schülerin auffordern, selbst eine Strafanzeige zu stellen"
+    ],
+    "richtig": 2,
+    "erklaerung": "Fall A: Erst dokumentieren, dann ggf. vertrauliche Beratung durch schulische Ansprechpersonen einleiten — keine voreiligen Aktionen ohne Absprache und keine Konfrontation der Eltern ohne Rücksprache."
+  },
+  {
+    "id": "sz-03",
+    "typ": "szenario",
+    "szenario": "Sie beobachten, dass ein Kollege eine Schülerin regelmäßig nach dem Unterricht nachsitzen lässt und dabei die Türen schließt. Die Schülerin wirkt zunehmend eingeschüchtert.",
+    "frage": "Wie reagieren Sie korrekt?",
+    "optionen": [
+      "Den Kollegen direkt konfrontieren und eine Erklärung von ihm einfordern",
+      "Abwarten, da kein eindeutiger Beweis für ein Fehlverhalten vorliegt",
+      "Die Schüler:innen befragen, um Beweise zu sammeln",
+      "Beobachtungen dokumentieren und die schulische Ansprechperson informieren — entspricht Fall C"
+    ],
+    "richtig": 3,
+    "erklaerung": "Fall C: Verdacht gegen Schulpersonal → Dokumentation, Ansprechperson informieren, Schulleitung einschalten. Keine Selbstrecherche, keine Konfrontation und keine Opfer-Täter-Gegenüberstellung."
+  },
+  {
+    "id": "sz-04",
+    "typ": "szenario",
+    "szenario": "Eine Kollegin berichtet Ihnen aufgewühlt, dass ein Schüler sie gestern nach dem Unterricht körperlich bedrängt und sexuell beleidigt hat.",
+    "frage": "Welchem Interventionsfall entspricht dies?",
+    "optionen": [
+      "Fall A — außerschulischer Bereich",
+      "Fall B — Übergriffe von Lernenden untereinander",
+      "Fall C — Übergriffe durch Schulpersonal",
+      "Fall D — Übergriffe auf Beschäftigte der Schule"
+    ],
+    "richtig": 3,
+    "erklaerung": "Fall D beschreibt Übergriffe auf Beschäftigte der Schule. Die Kollegin informiert die Abteilungsleitung oder Schulleitung, ggf. wird der Personalrat hinzugezogen."
+  },
+  {
+    "id": "sz-05",
+    "typ": "szenario",
+    "szenario": "Ein Schüler sagt: 'Ich erzähl Ihnen alles, aber nur wenn Sie mir versprechen, dass Sie mit niemandem darüber reden.' Sie spüren, dass es ihm sehr wichtig ist, sich anzuvertrauen.",
+    "frage": "Wie reagieren Sie korrekt?",
+    "optionen": [
+      "Sie versprechen absolute Verschwiegenheit, um das Vertrauen nicht zu gefährden",
+      "Sie lehnen das Gespräch ab und verweisen direkt an die Schulpsychologin",
+      "Sie erklären ehrlich, dass Sie keine absolute Verschwiegenheit zusagen können, hören aber aufmerksam zu",
+      "Sie brechen das Gespräch ab und informieren sofort die Schulleitung"
+    ],
+    "richtig": 2,
+    "erklaerung": "Unhaltbare Versprechungen wie absolute Verschwiegenheit sind nicht erlaubt — ausgenommen Schulseelsorge. Aber: zuhören, Ruhe bewahren, Sicherheit ausstrahlen, nur nachfragen wenn nötig."
+  },
+  {
+    "id": "sz-06",
+    "typ": "szenario",
+    "szenario": "Sie führen ein Einzelgespräch mit einem Schüler in einem Raum ohne Fenster zum Flur. Die Tür ist geschlossen.",
+    "frage": "Was müssen Sie tun?",
+    "optionen": [
+      "Das Gespräch fortführen, da es sich um ein vertrauliches Thema handelt",
+      "Die Tür öffnen oder in einen einsehbaren Bereich wechseln",
+      "Nur Themen besprechen, die nicht als problematisch gelten könnten",
+      "Eine zweite Lehrkraft hinzurufen, damit sie das Gespräch leitet"
+    ],
+    "richtig": 1,
+    "erklaerung": "Gespräche mit einzelnen Lernenden finden grundsätzlich in offenen oder einsehbaren Bereichen statt. Türen bleiben offen, sofern der Raum nicht durch Fenster zum Flur einsehbar ist."
+  },
+  {
+    "id": "sz-07",
+    "typ": "szenario",
+    "szenario": "Gegen einen Lehrer liegt ein Verdacht auf übergriffiges Verhalten gegenüber Schüler:innen vor. Die Schulleitung fragt sich, ob er weiteren Unterricht halten soll.",
+    "frage": "Was muss laut Schutzkonzept unverzüglich sichergestellt werden?",
+    "optionen": [
+      "Abwarten, bis strafrechtliche Ermittlungen abgeschlossen sind",
+      "Den Lehrer selbst nach seiner Einschätzung befragen, bevor Maßnahmen ergriffen werden",
+      "Opfer und verdächtige Person vorläufig voneinander trennen",
+      "Den Fall intern regeln, ohne externe Stellen einzubeziehen"
+    ],
+    "richtig": 2,
+    "erklaerung": "Das Wohl des Opfers hat Priorität: Opfer und verdächtige Person müssen unverzüglich vorläufig voneinander getrennt werden. Ggf. kann eine Dienstenthebung durch das Staatliche Schulamt angeordnet werden."
+  },
+  {
+    "id": "sz-08",
+    "typ": "szenario",
+    "szenario": "Eine Schülerin bittet Sie nach dem Unterricht um Ihre Privatnummer, damit sie Ihnen außerhalb der Schulzeit Fragen stellen kann.",
+    "frage": "Wie reagieren Sie laut Verhaltenskodex?",
+    "optionen": [
+      "Sie geben die Nummer, da Sie der Schülerin vertrauen und es ihr gut meinen",
+      "Sie verweisen auf schulische Kanäle wie IServ oder die schulische E-Mail-Adresse",
+      "Sie erlauben WhatsApp-Kommunikation, jedoch nur zu Schulzeiten",
+      "Sie erklären, dass jegliche Kommunikation außerhalb des Unterrichts verboten ist"
+    ],
+    "richtig": 1,
+    "erklaerung": "Kommunikation zwischen Personal und Lernenden erfolgt bevorzugt über schulische Kanäle. Die Nutzung privater Kommunikationswege soll vermieden werden."
+  },
+  {
+    "id": "sz-09",
+    "typ": "szenario",
+    "szenario": "Ein Schüler, der sonst aktiv am Unterricht teilnimmt, ist seit mehreren Wochen sehr still, zieht sich zurück und wirkt ängstlich. Sein Verhalten hat sich deutlich verändert.",
+    "frage": "Wie reagieren Sie?",
+    "optionen": [
+      "Abwarten, da Rückzugsphasen bei Jugendlichen normal sind und meist von selbst enden",
+      "Sofort die Eltern informieren, ohne vorher mit dem Schüler zu sprechen",
+      "Das Gespräch suchen ('Mir ist aufgefallen, dass...') und die Beobachtungen dokumentieren",
+      "Den Schüler direkt nach möglichen Übergriffen befragen"
+    ],
+    "richtig": 2,
+    "erklaerung": "Bei Verhaltensauffälligkeiten: Gespräch suchen und Beobachtungen dokumentieren. Keine direkten suggestiven Befragungen und keine voreiligen Informationen an Eltern ohne Absprache mit dem Schüler."
+  },
+  {
+    "id": "sz-10",
+    "typ": "szenario",
+    "szenario": "Auf einer Klassenfahrt weint ein 14-jähriger Schüler nachts vor Heimweh. Ein Kollege möchte ihn in sein Lehrerzimmer nehmen, damit er sich beruhigt.",
+    "frage": "Was ist korrekt?",
+    "optionen": [
+      "Das ist in Ordnung, wenn der Schüler einverstanden ist",
+      "Es ist erlaubt, wenn noch eine weitere Begleitperson dabei ist",
+      "Lernende dürfen nicht in das Zimmer von Begleitpersonen genommen werden — Lösung im öffentlichen Raum suchen",
+      "Der Schüler darf kurz ins Zimmer, muss dann aber zurück"
+    ],
+    "richtig": 2,
+    "erklaerung": "Auch in emotional belastenden Situationen dürfen Lernende nicht in das Zimmer der Begleitpersonen genommen werden. Lösungen werden in einem neutralen, öffentlichen Raum gesucht."
+  },
+  {
+    "id": "sz-11",
+    "typ": "szenario",
+    "szenario": "Sie wollen Fotos von einem Schulprojekt machen, an dem Minderjährige teilnehmen. Eine Schülerin sagt mündlich: 'Ja, kein Problem.'",
+    "frage": "Dürfen Sie die Fotos machen?",
+    "optionen": [
+      "Ja, die mündliche Einwilligung der Schülerin reicht aus",
+      "Ja, bei schulischen Aktivitäten sind Fotos grundsätzlich erlaubt",
+      "Nein, Sie benötigen zusätzlich das schriftliche Einverständnis der Erziehungsberechtigten",
+      "Nein, Fotos von Lernenden sind in der Schule generell verboten"
+    ],
+    "richtig": 2,
+    "erklaerung": "Bei Minderjährigen ist neben der ausdrücklichen Zustimmung der Lernenden auch das schriftliche Einverständnis der Erziehungsberechtigten erforderlich."
+  },
+  {
+    "id": "sz-12",
+    "typ": "szenario",
+    "szenario": "Eine Schülerin hat Ihnen etwas Belastendes anvertraut. Sie führen das Gespräch und überlegen anschließend, was genau Sie dokumentieren sollen.",
+    "frage": "Was schreiben Sie laut Schutzkonzept auf?",
+    "optionen": [
+      "Ihre eigene Zusammenfassung und Einschätzung des Gesprächs",
+      "Nur das Datum und das allgemeine Thema des Gesprächs",
+      "Aussagen möglichst im Wortlaut, die emotionale Situation und die schulische Entwicklung der Schülerin",
+      "Nur belegbare Fakten ohne Gefühlsäußerungen"
+    ],
+    "richtig": 2,
+    "erklaerung": "Aussagen werden im Wortlaut notiert (nicht selbst zusammengefasst — Interpretationsgefahr!), dazu die emotionale Situation und die schulische Entwicklung der betroffenen Person."
+  },
+  {
+    "id": "sz-13",
+    "typ": "szenario",
+    "szenario": "Ein Verdacht gegen eine Lehrkraft hat sich nach Untersuchung als unbegründet herausgestellt. Die Schulleitung fragt Sie, wie es jetzt weitergeht.",
+    "frage": "Was sieht das Schutzkonzept für diesen Fall vor?",
+    "optionen": [
+      "Der Fall wird vertraulich beendet — keine weitere Kommunikation nach außen",
+      "Die Lehrkraft verlässt die Schule, da das Vertrauen nachhaltig beschädigt ist",
+      "Belastende Maßnahmen werden beendet, klärendes Gespräch mit allen Beteiligten, ggf. klarstellende Information an die Schulgemeinde",
+      "Die Lehrkraft kann erst nach einer Probezeit wieder voll unterrichten"
+    ],
+    "richtig": 2,
+    "erklaerung": "Rehabilitation: Belastende Maßnahmen werden beendet und zurückgenommen. Ein klärendes Gespräch findet mit allen Betroffenen statt. Ggf. erfolgen klarstellende Informationen an die Schulgemeinde und Medien (in Absprache mit dem Schulamt)."
+  },
+  {
+    "id": "sz-14",
+    "typ": "szenario",
+    "szenario": "Sie haben Aufsicht auf dem Schulhof. Sie beobachten, dass eine Gruppe von Schüler:innen einen einzelnen Mitschüler körperlich bedrängt und laut anschreit.",
+    "frage": "Was tun Sie?",
+    "optionen": [
+      "Abwarten und erst eingreifen, wenn es körperlich eskaliert",
+      "Die Situation aus sicherer Entfernung beobachten und dokumentieren",
+      "Die Klassenleitung des Opfers informieren und die Situation sozial klären lassen",
+      "Unverzüglich eingreifen und vermitteln"
+    ],
+    "richtig": 3,
+    "erklaerung": "Aufsichtspersonen greifen bei Mobbing, Gewalt oder unangemessenem Verhalten unverzüglich ein und vermitteln. Zögern ist hier nicht angebracht."
+  },
+  {
+    "id": "sz-15",
+    "typ": "szenario",
+    "szenario": "Im Sportunterricht möchten Sie einem Schüler bei einer schwierigen Turnübung helfen und müssen ihn dabei körperlich stützen.",
+    "frage": "Was müssen Sie vorab tun?",
+    "optionen": [
+      "Nichts — im Sport ist körperliche Hilfestellung selbstverständlich erlaubt",
+      "Die Hilfestellung vorab mit dem Schüler besprechen und sein Einverständnis einholen",
+      "Die Eltern informieren, bevor körperlicher Kontakt stattfindet",
+      "Einen Zeugen (andere Lehrkraft) hinzuziehen"
+    ],
+    "richtig": 1,
+    "erklaerung": "Jede körperliche Hilfestellung wird vorab mit den Lernenden besprochen und das Einverständnis eingeholt. Körperkontakt erfolgt nur, wenn er methodisch notwendig ist."
+  },
+  {
+    "id": "rf-01",
+    "typ": "richtig-falsch",
+    "aussage": "Lehrkräfte dürfen eigene Recherchen anstellen und Opfer-Täter-Konfrontationen durchführen, wenn sie einen Verdacht haben.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 1,
+    "erklaerung": "Falsch: Lehrkräfte haben keine polizeilichen Aufgaben und sollten keine Selbstrecherchen vornehmen und keine Opfer-Täter-Gegenüberstellungen durchführen."
+  },
+  {
+    "id": "rf-02",
+    "typ": "richtig-falsch",
+    "aussage": "Der Verhaltenskodex schützt nur die Lernenden — Mitarbeitende profitieren nicht davon.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 1,
+    "erklaerung": "Falsch: Der Verhaltenskodex schützt einerseits Lernende vor Grenzverletzungen und andererseits Mitarbeitende vor falschem Verdacht."
+  },
+  {
+    "id": "rf-03",
+    "typ": "richtig-falsch",
+    "aussage": "Körperkontakt bei Erster Hilfe ist auch dann zulässig, wenn die Zustimmung des Lernenden nicht mehr eingeholt werden kann.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 0,
+    "erklaerung": "Richtig: Bei Erster Hilfe oder in Notsituationen kann Körperkontakt notwendig sein, auch wenn eine Zustimmung nicht (mehr) eingeholt werden kann."
+  },
+  {
+    "id": "rf-04",
+    "typ": "richtig-falsch",
+    "aussage": "Erwachsene Begleitpersonen dürfen auf Klassenfahrten die Schlafräume der Lernenden jederzeit und ohne Ankündigung betreten.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 1,
+    "erklaerung": "Falsch: Schlafräume dürfen nur in dringenden Fällen oder nach vorheriger Ankündigung betreten werden — stets mit Anklopfen. Besuche sollten zu zweit oder in Gruppen stattfinden."
+  },
+  {
+    "id": "rf-05",
+    "typ": "richtig-falsch",
+    "aussage": "Das Erstgespräch mit einer betroffenen Person sollte schnellstmöglich geführt werden.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 0,
+    "erklaerung": "Richtig: Das Erstgespräch sollte schnellstmöglich von der Person geführt werden, an die sich die betroffene Person zuerst gewendet hat."
+  },
+  {
+    "id": "rf-06",
+    "typ": "richtig-falsch",
+    "aussage": "Wenn ein Verdacht gegen einen Mitarbeitenden vorliegt, sollte das erste Gespräch mit dieser Person niemals allein geführt werden.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 0,
+    "erklaerung": "Richtig: Es ist ratsam, die schulische Ansprechperson und eine Vertreterin oder einen Vertreter der Schulaufsicht hinzuzuziehen."
+  },
+  {
+    "id": "rf-07",
+    "typ": "richtig-falsch",
+    "aussage": "Das Hilfe-Telefon Sexualisierter Missbrauch (0800 2255530) ist kostenlos und anonym nutzbar.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 0,
+    "erklaerung": "Richtig: Das Hilfe-Telefon bietet kostenlose und anonyme telefonische sowie Online-Beratung bei sexuellem Missbrauch."
+  },
+  {
+    "id": "rf-08",
+    "typ": "richtig-falsch",
+    "aussage": "Kontrollgänge während der Nachtruhe auf Klassenfahrten sollten von einer einzelnen Lehrkraft allein durchgeführt werden.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 1,
+    "erklaerung": "Falsch: Regelmäßige Kontrollgänge während der Nachtruhe sollten von zwei Verantwortlichen durchgeführt werden — unter Wahrung der Privatsphäre der Lernenden."
+  },
+  {
+    "id": "rf-09",
+    "typ": "richtig-falsch",
+    "aussage": "Sexuell anzügliche Witze gegenüber Lernenden sind erlaubt, wenn sie humorvoll gemeint sind und niemanden direkt beleidigen.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 1,
+    "erklaerung": "Falsch: Weder sexualisierte Sprache noch abfällige Bemerkungen oder Bloßstellungen werden an der HEMS geduldet — unabhängig von der Intention."
+  },
+  {
+    "id": "rf-10",
+    "typ": "richtig-falsch",
+    "aussage": "Dienstrechtliche Schritte durch das Staatliche Schulamt können auch gegen Personen ergriffen werden, die Täter:innen aktiv unterstützt haben.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 0,
+    "erklaerung": "Richtig: Das Staatliche Schulamt prüft dienstrechtliche Schritte — gegebenenfalls auch gegen Personen, die Täter:innen unterstützt haben."
+  },
+  {
+    "id": "rf-11",
+    "typ": "richtig-falsch",
+    "aussage": "Der Verhaltenskodex der HEMS ist für alle Mitarbeitenden verbindlich.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 0,
+    "erklaerung": "Richtig: Der Verhaltenskodex gilt für das gesamte Personal der HEMS und ist verbindlich — nicht nur für Lehrkräfte."
+  },
+  {
+    "id": "rf-12",
+    "typ": "richtig-falsch",
+    "aussage": "Trans* Personen dürfen an der HEMS mit dem falschen Pronomen angesprochen werden, solange es aus Versehen geschieht.",
+    "optionen": ["Richtig", "Falsch"],
+    "richtig": 1,
+    "erklaerung": "Falsch: Misgendering ist zu unterlassen und wird nicht geduldet. Trans* Personen werden grundsätzlich mit dem Pronomen ihres Identitätsgeschlechts angesprochen."
+  },
+  {
+    "id": "zu-01",
+    "typ": "zuordnung",
+    "frage": "Wildwasser Darmstadt e.V. richtet sich primär an...",
+    "optionen": [
+      "Männliche Betroffene sexualisierter Gewalt in Kindheit und Jugend",
+      "Mädchen und Frauen, die von sexualisierter Gewalt betroffen sind",
+      "Betroffene von Zwangsheirat und Gewalt im Namen der 'Ehre'",
+      "Kinder und Jugendliche mit familiären Krisensituationen"
+    ],
+    "richtig": 1,
+    "erklaerung": "Wildwasser Darmstadt e.V. berät Mädchen und Frauen, die von sexualisierter Gewalt betroffen sind, und bietet auch Prävention und Fortbildungen für Fachkräfte an."
+  },
+  {
+    "id": "zu-02",
+    "typ": "zuordnung",
+    "frage": "Welche Organisation hilft speziell bei der Vermittlung zu den passenden Beratungsstellen bei häuslicher oder sexualisierter Gewalt?",
+    "optionen": [
+      "Mäander Darmstadt",
+      "Wildwasser Darmstadt e.V.",
+      "Darmstädter Hilfe e.V.",
+      "Pro Familia Darmstadt"
+    ],
+    "richtig": 2,
+    "erklaerung": "Die Darmstädter Hilfe e.V. fungiert als Clearingstelle und hilft bei der Vermittlung zu den passenden Beratungsstellen bei häuslicher oder sexualisierter Gewalt."
+  },
+  {
+    "id": "zu-03",
+    "typ": "zuordnung",
+    "frage": "Die Beratungsstelle 'pro familia – Halte.Punkt' richtet sich speziell an...",
+    "optionen": [
+      "Frauen, die von häuslicher Gewalt betroffen sind",
+      "Männliche Betroffene sexualisierter Gewalt in Kindheit und Jugend",
+      "Kinder und Jugendliche mit Schulproblemen",
+      "Fachkräfte, die Verdachtsfälle begleiten"
+    ],
+    "richtig": 1,
+    "erklaerung": "Der Halte.Punkt von pro familia ist speziell für männliche Betroffene sexualisierter Gewalt in Kindheit und Jugend. Beratung ist respektvoll, vertraulich und ggf. anonym."
+  },
+  {
+    "id": "zu-04",
+    "typ": "zuordnung",
+    "frage": "Welchem Interventionsfall entspricht ein Übergriff durch eine Lehrkraft auf eine/n Lernende/n?",
+    "optionen": [
+      "Fall A",
+      "Fall B",
+      "Fall C",
+      "Fall D"
+    ],
+    "richtig": 2,
+    "erklaerung": "Fall C beschreibt Übergriffe durch Schulpersonal im schulischen Bereich. Die Schulleitung meldet den Verdachtsfall ans Staatliche Schulamt und bezieht ggf. die Polizei ein."
+  },
+  {
+    "id": "zu-05",
+    "typ": "zuordnung",
+    "frage": "Welchem Interventionsfall entspricht ein körperlicher Übergriff eines Lernenden auf eine Lehrkraft?",
+    "optionen": [
+      "Fall A",
+      "Fall B",
+      "Fall C",
+      "Fall D"
+    ],
+    "richtig": 3,
+    "erklaerung": "Fall D beschreibt Übergriffe auf Beschäftigte der Schule. Der/die Betroffene oder eine Vertrauensperson informiert die Abteilungsleitung oder Schulleitung."
+  },
+  {
+    "id": "zu-06",
+    "typ": "zuordnung",
+    "frage": "Unter welcher Telefonnummer ist das Hilfe-Telefon Sexualisierter Missbrauch erreichbar?",
+    "optionen": [
+      "06151 42942-0",
+      "06151 28871",
+      "06151 36041-50",
+      "0800 2255530"
+    ],
+    "richtig": 3,
+    "erklaerung": "Das Hilfe-Telefon Sexualisierter Missbrauch ist kostenlos und anonym unter 0800 2255530 erreichbar. 06151 42942-0 ist Pro Familia, 06151 28871 ist Wildwasser, 06151 36041-50 ist der Kinderschutzbund."
+  },
+  {
+    "id": "zu-07",
+    "typ": "zuordnung",
+    "frage": "Welche Organisation bietet Schutz und Unterkunft für Frauen, die von häuslicher oder sexualisierter Gewalt betroffen sind?",
+    "optionen": [
+      "Wildwasser Darmstadt e.V.",
+      "Darmstädter Hilfe e.V.",
+      "Frauenhaus Darmstadt (Frauen helfen Frauen e.V.)",
+      "Pro Familia Darmstadt"
+    ],
+    "richtig": 2,
+    "erklaerung": "Das Frauenhaus Darmstadt (Frauen helfen Frauen e.V.) bietet Schutz und Beratung für Frauen, die von häuslicher oder sexualisierter Gewalt betroffen sind."
+  },
+  {
+    "id": "zu-08",
+    "typ": "zuordnung",
+    "frage": "Welchem Interventionsfall entspricht ein Übergriff im häuslichen Umfeld einer/eines Lernenden?",
+    "optionen": [
+      "Fall A",
+      "Fall B",
+      "Fall C",
+      "Fall D"
+    ],
+    "richtig": 0,
+    "erklaerung": "Fall A beschreibt Übergriffe im außerschulischen und häuslichen Bereich. Hier können u. a. Polizei, Staatsanwaltschaft oder das Jugendamt einbezogen werden."
+  }
+]
