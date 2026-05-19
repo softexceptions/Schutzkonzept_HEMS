@@ -70,10 +70,10 @@ function kurzTitel(titel: string): string {
 }
 
 const farben = [
-  { karte: 'border-sky-200 bg-sky-50 dark:border-sky-800 dark:bg-sky-950/40',             karteAktiv: 'border-sky-400 bg-sky-100 dark:border-sky-600 dark:bg-sky-900/50',             buchstabe: 'text-sky-300',    buchstabeAktiv: 'text-sky-500',    panel: 'border-sky-200 bg-sky-50 dark:border-sky-800 dark:bg-sky-950/40',         badge: 'text-sky-600 dark:text-sky-400',    nummer: 'text-sky-500 dark:text-sky-400',    emoji: '🏠' },
-  { karte: 'border-orange-200 bg-orange-50 dark:border-orange-800 dark:bg-orange-950/40', karteAktiv: 'border-orange-400 bg-orange-100 dark:border-orange-600 dark:bg-orange-900/50', buchstabe: 'text-orange-300', buchstabeAktiv: 'text-orange-500', panel: 'border-orange-200 bg-orange-50 dark:border-orange-800 dark:bg-orange-950/40', badge: 'text-orange-600 dark:text-orange-400', nummer: 'text-orange-500 dark:text-orange-400', emoji: '👥' },
-  { karte: 'border-blue-200 bg-blue-50 dark:border-blue-800 dark:bg-blue-950/40',         karteAktiv: 'border-blue-400 bg-blue-100 dark:border-blue-600 dark:bg-blue-900/50',         buchstabe: 'text-blue-300',   buchstabeAktiv: 'text-blue-500',   panel: 'border-blue-200 bg-blue-50 dark:border-blue-800 dark:bg-blue-950/40',     badge: 'text-blue-600 dark:text-blue-400',   nummer: 'text-blue-500 dark:text-blue-400',   emoji: '👨‍🏫' },
-  { karte: 'border-yellow-200 bg-yellow-50 dark:border-yellow-800 dark:bg-yellow-950/40', karteAktiv: 'border-yellow-400 bg-yellow-100 dark:border-yellow-600 dark:bg-yellow-900/50', buchstabe: 'text-yellow-300', buchstabeAktiv: 'text-yellow-500', panel: 'border-yellow-200 bg-yellow-50 dark:border-yellow-800 dark:bg-yellow-950/40', badge: 'text-yellow-600 dark:text-yellow-400', nummer: 'text-yellow-500 dark:text-yellow-400', emoji: '🪪' },
+  { karte: 'border-sky-200 bg-sky-50 dark:border-gray-700 dark:bg-gray-800',         karteAktiv: 'border-sky-400 bg-sky-100 dark:border-gray-500 dark:bg-gray-700',         buchstabe: 'text-sky-300',    buchstabeAktiv: 'text-sky-500',    panel: 'border-sky-200 bg-sky-50 dark:border-gray-700 dark:bg-gray-800',     badge: 'text-sky-600 dark:text-sky-400',    nummer: 'text-sky-500 dark:text-sky-400',    emoji: '🏠' },
+  { karte: 'border-orange-200 bg-orange-50 dark:border-gray-700 dark:bg-gray-800',   karteAktiv: 'border-orange-400 bg-orange-100 dark:border-gray-500 dark:bg-gray-700',   buchstabe: 'text-orange-300', buchstabeAktiv: 'text-orange-500', panel: 'border-orange-200 bg-orange-50 dark:border-gray-700 dark:bg-gray-800', badge: 'text-orange-600 dark:text-orange-400', nummer: 'text-orange-500 dark:text-orange-400', emoji: '👥' },
+  { karte: 'border-blue-200 bg-blue-50 dark:border-gray-700 dark:bg-gray-800',       karteAktiv: 'border-blue-400 bg-blue-100 dark:border-gray-500 dark:bg-gray-700',       buchstabe: 'text-blue-300',   buchstabeAktiv: 'text-blue-500',   panel: 'border-blue-200 bg-blue-50 dark:border-gray-700 dark:bg-gray-800',   badge: 'text-blue-600 dark:text-blue-400',   nummer: 'text-blue-500 dark:text-blue-400',   emoji: '👨‍🏫' },
+  { karte: 'border-yellow-200 bg-yellow-50 dark:border-gray-700 dark:bg-gray-800',   karteAktiv: 'border-yellow-400 bg-yellow-100 dark:border-gray-500 dark:bg-gray-700',   buchstabe: 'text-yellow-300', buchstabeAktiv: 'text-yellow-500', panel: 'border-yellow-200 bg-yellow-50 dark:border-gray-700 dark:bg-gray-800', badge: 'text-yellow-600 dark:text-yellow-400', nummer: 'text-yellow-500 dark:text-yellow-400', emoji: '🪪' },
 ]
 </script>
 
@@ -164,25 +164,25 @@ const farben = [
             <!-- Kompakte Zeile -->
             <button
               v-if="!triggerAusgeklappt.has(ausgewaehlt)"
-              class="flex w-full items-center gap-2 rounded-md border border-amber-200 bg-amber-50 px-3 py-2.5 text-left transition-colors hover:bg-amber-100 dark:border-amber-900/50 dark:bg-amber-950/30 dark:hover:bg-amber-900/40"
+              class="flex w-full items-center gap-2 rounded-md border border-amber-200 bg-amber-50 px-3 py-2.5 text-left transition-colors hover:bg-amber-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:bg-gray-600"
               @click="triggerAusklappen(ausgewaehlt)"
             >
-              <span class="text-sm font-semibold text-amber-800 dark:text-amber-400">⚠️ Triggerwarnung</span>
-              <span class="ml-auto text-xs text-amber-600 dark:text-amber-500">Lesen &amp; Podcast freischalten →</span>
+              <span class="text-sm font-semibold text-amber-800 dark:text-amber-300">⚠️ Triggerwarnung</span>
+              <span class="ml-auto text-xs text-amber-600 dark:text-amber-400">Lesen &amp; Podcast freischalten →</span>
             </button>
             <!-- Ausgeklappter Volltext -->
             <div
               v-else
-              class="rounded-md border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/50 dark:bg-amber-950/30"
+              class="rounded-md border border-amber-200 bg-amber-50 p-4 dark:border-gray-600 dark:bg-gray-700"
             >
-              <p class="flex items-center gap-2 text-sm font-semibold text-amber-800 dark:text-amber-400">
+              <p class="flex items-center gap-2 text-sm font-semibold text-amber-800 dark:text-amber-300">
                 ⚠️ Triggerwarnung
               </p>
-              <p class="mt-1.5 text-sm leading-relaxed text-amber-700 dark:text-amber-300" lang="de">
+              <p class="mt-1.5 text-sm leading-relaxed text-amber-700 dark:text-gray-200" lang="de">
                 {{ faelle[ausgewaehlt].podcast!.triggerwarnung }}
               </p>
               <button
-                class="mt-3 rounded-md bg-amber-100 px-3 py-1.5 text-xs font-medium text-amber-800 transition-colors hover:bg-amber-200 dark:bg-amber-900/40 dark:text-amber-300 dark:hover:bg-amber-900/60"
+                class="mt-3 rounded-md bg-amber-100 px-3 py-1.5 text-xs font-medium text-amber-800 transition-colors hover:bg-amber-200 dark:bg-gray-600 dark:text-gray-100 dark:hover:bg-gray-500"
                 @click="triggerBestaetigen(ausgewaehlt)"
               >
                 Ich habe die Warnung gelesen — Podcast abspielen
