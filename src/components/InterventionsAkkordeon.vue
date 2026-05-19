@@ -51,6 +51,12 @@ function triggerBestaetigen(index: number) {
   triggerBestaetigt.value = new Set([...triggerBestaetigt.value, index])
 }
 
+function triggerEinklappen(index: number) {
+  const neu = new Set(triggerAusgeklappt.value)
+  neu.delete(index)
+  triggerAusgeklappt.value = neu
+}
+
 const alleTranskripte = import.meta.glob('../content/transcripts/*.md', {
   query: '?raw',
   import: 'default',
@@ -175,9 +181,18 @@ const farben = [
               v-else
               class="rounded-md border border-amber-200 bg-amber-50 p-4 dark:border-gray-600 dark:bg-gray-700"
             >
-              <p class="flex items-center gap-2 text-sm font-semibold text-amber-800 dark:text-amber-300">
-                ⚠️ Triggerwarnung
-              </p>
+              <div class="flex items-center justify-between gap-2">
+                <p class="text-sm font-semibold text-amber-800 dark:text-amber-300">⚠️ Triggerwarnung</p>
+                <button
+                  class="rounded p-1 text-amber-600 transition-colors hover:text-amber-800 dark:text-amber-400 dark:hover:text-amber-200"
+                  aria-label="Triggerwarnung zuklappen"
+                  @click="triggerEinklappen(ausgewaehlt)"
+                >
+                  <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
               <p class="mt-1.5 text-sm leading-relaxed text-amber-700 dark:text-gray-200" lang="de">
                 {{ faelle[ausgewaehlt].podcast!.triggerwarnung }}
               </p>
