@@ -92,8 +92,9 @@ const kapitel = [
   <!-- Mobile Top Bar -->
   <header class="sticky top-0 z-50 md:hidden border-b border-hems-glass/40 bg-hems-bg dark:bg-gray-900 dark:border-gray-700">
     <div class="flex items-center justify-between px-4 py-3">
-      <RouterLink to="/" class="flex items-center gap-3 text-hems-navy dark:text-white" @click="scrollNachOben">
-        <HemsLogo class="h-8 w-auto" />
+      <RouterLink to="/" class="flex flex-col items-start gap-0.5" @click="scrollNachOben">
+        <img src="/hems-logo.svg" alt="HEMS Logo" class="h-8 w-auto rounded bg-white" />
+        <p class="text-sm font-semibold tracking-wide text-hems-navy dark:text-white">Schutzkonzept</p>
       </RouterLink>
 
       <div class="flex items-center gap-1">
