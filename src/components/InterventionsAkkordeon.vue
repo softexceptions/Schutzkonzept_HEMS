@@ -214,7 +214,7 @@ const farben = [
               controls
               :src="faelle[ausgewaehlt].podcast!.datei"
               class="w-full rounded"
-              preload="metadata"
+              preload="none"
               @play="abgespielt(ausgewaehlt)"
             ></audio>
             <Transition

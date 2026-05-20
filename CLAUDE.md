@@ -44,7 +44,7 @@ Die Seite ist ein "lebendes Dokument" — Inhalte müssen durch Berechtigte dire
 
 `core -> /home/norbert/Dokumente/core` (Symlink auf Norberts globalen Vault)
 
-**Projektbeschreibung:** `core/02 Projekte/SchulkonzeptHems.md`
+**Projektbeschreibung:** `core/02 Projekte/SchutzkonzeptHems.md`
 
 ## Farbpalette (aus HEMS_Bild.webp)
 
